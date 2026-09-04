@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SelloBuyo is the trusted marketplace for pre-loved consoles, games and gaming accessories." />
+  <title>SelloBuyo — Game more. Spend less.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement"><span class="announcement-dot"></span> Free listings. Safe deals. Your next setup is closer than you think. <button class="announcement-link" data-action="sell">List an item <i data-lucide="arrow-up-right"></i></button></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="SelloBuyo home"><span class="brand-mark">S</span><span>sello<span>buyo</span><b>.in</b></span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="active" href="#browse">Browse</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#community">Community</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" aria-label="Open messages"><i data-lucide="message-circle"></i><span class="notification-dot"></span></button>
+      <button class="avatar" aria-label="Open profile">AR</button>
+      <button class="sell-btn" data-action="sell"><i data-lucide="plus"></i> Sell something</button>
+    </div>
+    <button class="mobile-menu icon-btn" aria-label="Open menu"><i data-lucide="menu"></i></button>
+  </header>
+
+  <main id="top">
+    <section class="hero-section">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> The gaming resale club</div>
+        <h1>Game more.<br><em>Spend less.</em></h1>
+        <p>Find the gear you want, from people who get it. Buy, sell, and trade pre-loved consoles, games, and accessories without the marketplace chaos.</p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#browse">Explore the drop <i data-lucide="arrow-down-right"></i></a>
+          <button class="text-btn" data-action="sell">Have gear to sell? <span>List it free</span> <i data-lucide="arrow-up-right"></i></button>
+        </div>
+        <div class="hero-trust"><div class="mini-avatars"><span>RK</span><span>MS</span><span>JP</span><span>+</span></div><span><strong>12k+</strong> gamers found a better setup this month</span></div>
+      </div>
+      <div class="hero-art" aria-label="Featured gaming setup">
+        <div class="hero-glow"></div>
+        <div class="hero-card-label"><span class="live-dot"></span> Freshly listed <strong>today</strong></div>
+        <img src="https://images.unsplash.com/photo-1605901309584-818e25960a8f?auto=format&fit=crop&w=1200&q=85" alt="Gaming controller on a desk" />
+        <div class="hero-price"><span>Featured find</span><strong>PS5 · Disc Edition</strong><b>₹39,500</b></div>
+        <div class="hero-sticker">GOOD<br><span>GAME</span></div>
+      </div>
+    </section>
+
+    <section class="stats-strip" aria-label="SelloBuyo marketplace stats">
+      <div><strong>2,480+</strong><span>active listings</span></div><div><strong>4.9/5</strong><span>community rated</span></div><div><strong>100%</strong><span>free to list</span></div><div><strong>48 hrs</strong><span>average sell time</span></div>
+    </section>
+
+    <section class="browse-section" id="browse">
+      <div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> Handpicked for you</div><h2>The latest <em>drop</em></h2></div><a class="view-all" href="#browse">View all listings <i data-lucide="arrow-up-right"></i></a></div>
+      <div class="browse-toolbar">
+        <div class="search-wrap"><i data-lucide="search"></i><input type="search" id="search-input" placeholder="Search PS5, Zelda, headphones..." aria-label="Search listings" /></div>
+        <div class="filter-row" role="group" aria-label="Filter listings"><button class="filter-btn active" data-filter="all">All gear</button><button class="filter-btn" data-filter="consoles">Consoles</button><button class="filter-btn" data-filter="games">Games</button><button class="filter-btn" data-filter="accessories">Accessories</button></div>
+        <button class="sort-btn">Sort: <strong>Freshest</strong> <i data-lucide="chevron-down"></i></button>
+      </div>
+      <div class="listings-grid" id="listings-grid"></div>
+      <div class="empty-state" id="empty-state"><i data-lucide="scan-search"></i><h3>No gear found</h3><p>Try a different search or category.</p></div>
+    </section>
+
+    <section class="sell-banner" id="how-it-works"><div class="sell-banner-art"><img src="https://images.unsplash.com/photo-1592840062661-aca48c8f5a65?auto=format&fit=crop&w=900&q=85" alt="Hand holding a game controller" /></div><div class="sell-banner-copy"><div class="eyebrow"><span class="eyebrow-line"></span> Your shelf called</div><h2>Turn old gear<br>into <em>new adventures.</em></h2><p>That controller gathering dust could be someone else's perfect match. List in under two minutes, chat directly, and keep 100% of what you make.</p><button class="primary-btn" data-action="sell">Start selling <i data-lucide="arrow-up-right"></i></button></div><div class="sell-note">NO FEES.<br><span>EVER.</span></div></section>
+
+    <section class="community-section" id="community"><div class="community-copy"><div class="eyebrow"><span class="eyebrow-line"></span> Built by players</div><h2>Good gear<br>finds good <em>people.</em></h2><p>SelloBuyo is where gamers swap stories, setups, and the stuff that makes play better. No faceless listings. Just real people and great gear.</p><a class="text-btn" href="#browse">Meet the community <i data-lucide="arrow-up-right"></i></a></div><div class="quote-card"><div class="quote-mark">“</div><p>Sold my old Series S in two days and found a mint condition Zelda bundle the same week. This is how resale should feel.</p><div class="quote-person"><div class="avatar photo-avatar">AS</div><span><strong>Ananya S.</strong><small>Verified player · Pune</small></span><span class="quote-stars">★★★★★</span></div></div></section>
+  </main>
+
+  <footer class="site-footer"><a class="brand" href="#top"><span class="brand-mark">S</span><span>sello<span>buyo</span><b>.in</b></span></a><span>Made for the next level.</span><span class="footer-links"><a href="#browse">Browse</a><a href="#how-it-works">Sell</a><a href="#community">About</a></span></footer>
+
+  <div class="modal-backdrop" id="sell-modal" aria-hidden="true"><div class="sell-modal" role="dialog" aria-modal="true" aria-labelledby="sell-title"><button class="modal-close icon-btn" data-close-modal aria-label="Close dialog"><i data-lucide="x"></i></button><div class="modal-kicker">LIST YOUR GEAR</div><h2 id="sell-title">What are you<br>letting go of?</h2><p>Start with the basics. You can add photos and details next.</p><form id="sell-form"><label>Item name<input required name="item" placeholder="e.g. Nintendo Switch OLED" /></label><label>Category<select name="category"><option>Console</option><option>Game</option><option>Accessory</option></select></label><div class="form-row"><label>Condition<select name="condition"><option>Like new</option><option>Good</option><option>Fair</option></select></label><label>Price<input required name="price" type="number" placeholder="₹ 0" /></label></div><button class="primary-btn form-submit" type="submit">Continue listing <i data-lucide="arrow-right"></i></button></form></div></div>
+  <div class="toast" id="toast"><i data-lucide="check-circle-2"></i><span></span></div>
+  <script src="https://unpkg.com/lucide@latest"></script><script src="script.js"></script>
+</body>
+</html>
